@@ -39,6 +39,7 @@ ScrollTrigger.matchMedia({
             start: "0% 100%",
             end: "50% 50%",
             scrub: true,
+            // visibility: "visible",
             // markers: true
         }})
 
@@ -51,7 +52,10 @@ ScrollTrigger.matchMedia({
             left: "35%",
             rotate: "180deg",
             scale: 2,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#FF9999"
         }, 'circles');
         
         tl.to('#circle3', {
@@ -59,7 +63,10 @@ ScrollTrigger.matchMedia({
             left: "25%",
             rotate: "180deg",
             scale: 1.8,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#D4A5A5"
         }, 'circles');
         
         tl.to('#circle6', {
@@ -67,7 +74,10 @@ ScrollTrigger.matchMedia({
             left: "34%",
             rotate: "180deg",
             scale: 0.8,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#FFEEAD"
         }, 'circles');
 
         // Position circle 4 in the middle
@@ -76,7 +86,10 @@ ScrollTrigger.matchMedia({
             left: "45%",
             rotate: "180deg",
             scale: 0.8,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#9DE0AD"
         }, 'circles');
 
         // Position circles 2, 5, 7 vertically on the right side
@@ -85,7 +98,10 @@ ScrollTrigger.matchMedia({
             left: "63%",
             rotate: "180deg",
             scale: 2,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#FFEEAD"
         }, 'circles');
         
         tl.to('#circle5', {
@@ -93,7 +109,10 @@ ScrollTrigger.matchMedia({
             left: "72%",
             rotate: "180deg",
             scale: 1.8,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#45B7D1"
         }, 'circles');
         
         tl.to('#circle7', {
@@ -101,7 +120,11 @@ ScrollTrigger.matchMedia({
             left: "61%",
             rotate: "180deg",
             scale: 0.7,
-            duration: 1
+            duration: 1,
+            visibility: "visible",
+            opacity: 1,
+            background: "#FF9999"
+            // transition: "all 2s",
         }, 'circles');
 
         // second section animation
